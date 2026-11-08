@@ -13,7 +13,7 @@ $user = $_SESSION['user'] ?? null;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' - ' . APP_NAME : APP_NAME . ' | Sistem Rujukan Medis' ?></title>
-    <link rel="stylesheet" href="assets/css/simaya.css">
+    <link rel="stylesheet" href="/assets/css/simaya.css">
 </head>
 <body>
 

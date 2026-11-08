@@ -6,7 +6,7 @@
     <br><span style="color: var(--hijau-tua); font-weight: 600;">Puskesmas (FKTP) ➔ Rumah Sakit (FKRTL)</span> | Dikembangkan untuk Pembelajaran Kasus 5
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
 

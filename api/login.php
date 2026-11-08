@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - SIMAYA (Sistem Rujukan Medis Terintegrasi)</title>
-    <link rel="stylesheet" href="assets/css/simaya.css">
+    <link rel="stylesheet" href="/assets/css/simaya.css">
 </head>
 <body class="login-body">
 
@@ -128,7 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
 
