@@ -120,7 +120,7 @@ function initialize_database($pdo) {
         ['dr.budi', $password_default, 'dr. Budi Santoso, Sp.PD', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Penyakit Dalam', '3404010404780004', '081234567893'],
         ['dr.siti', $password_default, 'dr. Siti Rahmawati, Sp.A', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Anak', '3404010505800005', '081234567894'],
         ['pasien.bambang', $password_default, 'Bambang Wijaya', 'pasien', 'Puskesmas Sehat Melati', 'Pasien', '3404011212880006', '081398765432'],
-        ['security', $password_default, 'Ahmad Fauzi, S.Tr.Kom (CISO)', 'security', 'Pusat Keamanan Siber RSUD', 'Keamanan Sistem', '3404010707900007', '081234567895']
+        ['security', $password_default, 'Ahmad Fauzi (CISO)', 'security', 'Pusat Keamanan Siber RSUD', 'Keamanan Sistem', '3404010707900007', '081234567895']
     ];
 
     $stmtUser = $pdo->prepare("INSERT INTO users (username, password, nama_lengkap, role, faskes_asal, spesialisasi, nik, no_hp) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");

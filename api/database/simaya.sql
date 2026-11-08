@@ -121,7 +121,7 @@ INSERT INTO users (username, password, nama_lengkap, role, faskes_asal, spesiali
 ('dr.budi', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'dr. Budi Santoso, Sp.PD', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Penyakit Dalam', '3404010404780004', '081234567893'),
 ('dr.siti', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'dr. Siti Rahmawati, Sp.A', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Anak', '3404010505800005', '081234567894'),
 ('pasien.bambang', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Bambang Wijaya', 'pasien', 'Puskesmas Sehat Melati', 'Pasien', '3404011212880006', '081398765432'),
-('security', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Ahmad Fauzi, S.Tr.Kom (CISO)', 'security', 'Pusat Keamanan Siber RSUD', 'Keamanan Sistem', '3404010707900007', '081234567895');
+('security', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Ahmad Fauzi (CISO)', 'security', 'Pusat Keamanan Siber RSUD', 'Keamanan Sistem', '3404010707900007', '081234567895');
 
 INSERT INTO pasien (user_id, no_rm, nik, nama_pasien, tgl_lahir, jenis_kelamin, alamat, no_hp, golongan_darah, alergi) VALUES
 (6, 'RM-PKM-2026-0042', '3404011212880006', 'Bambang Wijaya', '1988-12-12', 'L', 'Kec. Depok, Sleman, D.I. Yogyakarta', '081398765432', 'B+', 'Amoxicillin'),
