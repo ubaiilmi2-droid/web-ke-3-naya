@@ -115,7 +115,7 @@ INSERT INTO faskes (kode_faskes, nama_faskes, tingkat, alamat, telepon) VALUES
 
 -- Password default: password123 ($2y$10$e846UqG0FvC5sO2Iu3.xjeGkW6W3P352k9kXwA99jR1LqFh0sJgeu)
 INSERT INTO users (username, password, nama_lengkap, role, faskes_asal, spesialisasi, nik, no_hp) VALUES
-('admin', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Naya Putri, S.Kom (Admin)', 'admin', 'Pusat Operasional SIMAYA', 'Administrator', '3404010101990001', '081234567890'),
+('admin', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Naya Putri', 'admin', 'Pusat Operasional SIMAYA', 'Administrator', '3404010101990001', '081234567890'),
 ('petugas.rm', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'Rina Marlina, A.Md.RMIK', 'petugas_rm', 'Puskesmas Sehat Melati', 'Perekam Medis', '3404010202980002', '081234567891'),
 ('dr.andi', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'dr. Andi Kurniawan', 'dokter_pengirim', 'Puskesmas Sehat Melati', 'Dokter Umum FKTP', '3404010303850003', '081234567892'),
 ('dr.budi', '$2y$10$4B9bW6LzN7U6jD4xR5P9ue6kP/3YgqWz.88l1u3o3mB0P71e0n3Y.', 'dr. Budi Santoso, Sp.PD', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Penyakit Dalam', '3404010404780004', '081234567893'),

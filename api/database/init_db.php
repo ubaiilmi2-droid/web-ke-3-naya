@@ -114,7 +114,7 @@ function initialize_database($pdo) {
     $password_default = password_hash('password123', PASSWORD_BCRYPT);
 
     $users = [
-        ['admin', $password_default, 'Naya Putri, S.Kom (Admin)', 'admin', 'Pusat Operasional SIMAYA', 'Administrator', '3404010101990001', '081234567890'],
+        ['admin', $password_default, 'Naya Putri', 'admin', 'Pusat Operasional SIMAYA', 'Administrator', '3404010101990001', '081234567890'],
         ['petugas.rm', $password_default, 'Rina Marlina, A.Md.RMIK', 'petugas_rm', 'Puskesmas Sehat Melati', 'Perekam Medis', '3404010202980002', '081234567891'],
         ['dr.andi', $password_default, 'dr. Andi Kurniawan', 'dokter_pengirim', 'Puskesmas Sehat Melati', 'Dokter Umum FKTP', '3404010303850003', '081234567892'],
         ['dr.budi', $password_default, 'dr. Budi Santoso, Sp.PD', 'dokter_penerima', 'RSUD Sejahtera Husada', 'Spesialis Penyakit Dalam', '3404010404780004', '081234567893'],
